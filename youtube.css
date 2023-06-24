@@ -1,0 +1,89 @@
+div{
+    display: inline-flexbox;
+    margin: 0px;
+    position: relative;
+}
+
+.search-bar {
+    max-width: 1000px;
+    margin: 0px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+}
+
+.search-bar input[type="text"] {
+    width: 340px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid transparent;
+}
+
+.search-bar button {
+    --center-abs-margin: 180px;
+    --center-width: 652px;
+    --rhs-margin: 76px;
+    --rhs-width: 372px;
+    --lhs-margin: 24px;
+    --lhs-width: calc(var(--center-abs-margin) - var(--lhs-margin) - var(--center-margin));
+    --center-margin: 24px;
+    --grid-gutter-width: 20px;
+    --grid-column-width: 36px;
+    margin: 0;
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    flex: 0 0 auto;
+    padding-right: 13px;
+    outline: 0;
+}
+
+.search-bar button:hover {
+    background-color: #555;
+}
+
+.button {
+    max-width: 500px;
+    height: 40px;
+    margin: 5px;
+    border-radius: 7px;
+    border: solid #dbdbdb 7px;
+    background-color: #dbdbdb;
+}
+
+.button:hover {
+    background-color: #939393;
+    border: solid #939393 7px;
+}
+
+.button1 {
+    max-width: 500px;
+    height: 40px;
+    margin: 2px;
+    border-radius: 7px;
+    border: solid black 7px;
+    background-color: black;
+}
+
+.button1:hover {
+    background-color: #939393;
+    border: solid #939393 7px;
+}
+.button2 {
+    width: 100px;
+    height: 40px;
+    margin: 2px;
+    border-radius: 10px;
+    border: solid rgb(87, 149, 255) 2px;
+    background-color: transparent;
+    color: rgb(87, 149, 255);
+}
+
+.button2:hover {
+    background-color: #dbdbdb;
+    border: solid #00388c 2px;
+    color: #00388c;
+}
